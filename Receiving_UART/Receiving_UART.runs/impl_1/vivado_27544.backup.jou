@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Mar 11 13:25:52 2024
+# Process ID: 27544
+# Current directory: C:/Users/mohit/Desktop/DIGITAL SYSTEM/FNN/TRIALS/Receiving_UART/Receiving_UART.runs/impl_1
+# Command line: vivado.exe -log Receiving.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Receiving.tcl -notrace
+# Log file: C:/Users/mohit/Desktop/DIGITAL SYSTEM/FNN/TRIALS/Receiving_UART/Receiving_UART.runs/impl_1/Receiving.vdi
+# Journal file: C:/Users/mohit/Desktop/DIGITAL SYSTEM/FNN/TRIALS/Receiving_UART/Receiving_UART.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Receiving.tcl -notrace
