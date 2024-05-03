@@ -5,7 +5,7 @@ module Transmitter (
     input clk,             // System clock
     input reset,         // Reset signal (active low)
     input [7:0] data_in,   // Data to be transmitted
-    input send_data,
+    input send_data,   // turn it high to send data
     output reg tx_out,
     output reg is_transmitted   // Flag indicating if output is transmitted ( high for i clock cycle)
 );
