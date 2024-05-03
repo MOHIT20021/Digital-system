@@ -7,7 +7,7 @@ reg Rx_data=1;
 reg RESET;
 wire [7:0] Data;
 wire is_full;
-Receiving UUT (
+receiver UUT (
     .clk(slow_clk),
     .Rx_data(Rx_data),.reset(RESET),
     .Data(Data),

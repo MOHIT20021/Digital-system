@@ -1,4 +1,4 @@
-`timescale 1ns / 10ps
+`timescale 1ns / 1ps
 
 //parameter bit_size= 8;   // same time change reg_index range so it can accomadoate the bit size enter over here
 module Transmitter (
@@ -7,25 +7,28 @@ module Transmitter (
     input [7:0] data_in,   // Data to be transmitted
     input send_data,
     output reg tx_out,
-    output reg is_transmitted   // UART transmit output
+    output reg is_transmitted   // Flag indicating if output is transmitted ( high for i clock cycle)
 );
 
-parameter max_baud_count=10417;
+parameter max_baud_count=10416;   //This is  the value for 9600 baudrate found by dividing (frequency of fpga)/Baudrate
+//states
 parameter IDEAL =2'b00;
 parameter start_bit = 2'b01;
 parameter DATA =2'b10;
 parameter stop_bit = 2'b11;
 
 reg [1:0]STATE;
-reg [14:0]Baud_counter=0;
-reg [2:0] reg_index=0;  // change here after changing bit_size if needed
+reg [31:0]Baud_counter=0; // counter for counting max baud count
+
+// this is the index of bit which i going to be transmitted
+reg [31:0] reg_index=0;  // change here after changing bit_size if needed
 
 always@(posedge clk ,posedge reset)
 begin
 
 if (reset)
 begin
-tx_out <=1; 
+tx_out <= 1'b1 ; 
 STATE<=IDEAL;
 Baud_counter<=0;
 reg_index<=0;
@@ -38,6 +41,7 @@ IDEAL :
     begin
     tx_out<=1;
     reg_index<=0;
+    is_transmitted<=0;
     if (send_data & !is_transmitted)
         begin
             if (Baud_counter < (max_baud_count)/2)
@@ -56,6 +60,7 @@ IDEAL :
         begin
         STATE<=IDEAL;
         Baud_counter<=0;
+   
         end
             
     end 
@@ -103,7 +108,6 @@ stop_bit :
     begin
     if (Baud_counter < ( max_baud_count))
         begin 
-//        is_transmitted <=1;
         tx_out <= 1;
         Baud_counter <= Baud_counter+1;
         STATE <= stop_bit;

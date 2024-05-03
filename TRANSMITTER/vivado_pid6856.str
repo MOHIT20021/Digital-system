@@ -1,0 +1,159 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 6856
+License: Customer
+
+Current time: 	Fri May 03 19:44:45 IST 2024
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 150
+Available screens: 1
+Available disk space: 174 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	mohit
+User home directory: C:/Users/mohit
+User working directory: C:/Users/mohit/Desktop/GIT HUB FILES/Digital-system_FNN/TRANSMITTER
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.2
+RDI_DATADIR: C:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/mohit/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/mohit/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/mohit/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/mohit/Desktop/GIT HUB FILES/Digital-system_FNN/TRANSMITTER/vivado.log
+Vivado journal file location: 	C:/Users/mohit/Desktop/GIT HUB FILES/Digital-system_FNN/TRANSMITTER/vivado.jou
+Engine tmp dir: 	C:/Users/mohit/Desktop/GIT HUB FILES/Digital-system_FNN/TRANSMITTER/.Xil/Vivado-6856-MOHIT123
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	185 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 691 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 122 MB (+125334kb) [00:00:11]
+// [Engine Memory]: 646 MB (+525658kb) [00:00:11]
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\mohit\Desktop\GIT HUB FILES\Digital-system_FNN\TRANSMITTER\TRANSMITTER.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/mohit/Desktop/GIT HUB FILES/Digital-system_FNN/TRANSMITTER/TRANSMITTER.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 731 MB. GUI used memory: 55 MB. Current time: 5/3/24, 7:44:47 PM IST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/mohit/Desktop/GIT HUB FILES/Digital-system_FNN/TRANSMITTER/TRANSMITTER.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/mohit/Desktop/DIGITAL SYSTEM/FNN/TRIALS/TRANSMITTER' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [filemgmt 56-1] Board Part Repository Path: Directory not found as 'C:/Users/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store'; using path 'C:/Users/mohit/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store' instead. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 1,069 MB (+410094kb) [00:00:28]
+// WARNING: HEventQueue.dispatchEvent() is taking  5341 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,122 MB. GUI used memory: 61 MB. Current time: 5/3/24, 7:45:05 PM IST
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1161.117 ; gain = 473.609 
+// Project name: TRANSMITTER; location: C:/Users/mohit/Desktop/GIT HUB FILES/Digital-system_FNN/TRANSMITTER; part: xc7a100tcsg324-1
+// [Engine Memory]: 1,151 MB (+29700kb) [00:00:33]
+dismissDialog("Open Project"); // bB (cr)
+// Tcl Message: update_compile_order -fileset sources_1 
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// PAPropertyPanels.initPanels (Transmitter.v) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Transmitter (Transmitter.v)]", 1, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Transmitter (Transmitter.v)]", 1, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Transmitter (Transmitter.v)]", 1, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Transmitter (Transmitter.v)]", 1, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Tx_tb (Tx_tb.v)]", 5, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Tx_tb (Tx_tb.v)]", 5, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// Elapsed time: 11 seconds
+selectCodeEditor("Tx_tb.v", 156, 156); // ch (w, cr)
+typeControlKey(null, null, 'z');
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Transmitter.v", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tx_tb.v", 2); // i (h, cr)
+typeControlKey(null, null, 'z');
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Transmitter.v", 1); // i (h, cr)
+selectCodeEditor("Transmitter.v", 163, 126); // ch (w, cr)
+typeControlKey((HResource) null, "Transmitter.v", 'v'); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectCodeEditor("Transmitter.v", 496, 271); // ch (w, cr)
+selectCodeEditor("Transmitter.v", 529, 242); // ch (w, cr)
+selectCodeEditor("Transmitter.v", 619, 236); // ch (w, cr)
+// Elapsed time: 24 seconds
+selectCodeEditor("Transmitter.v", 367, 250); // ch (w, cr)
+selectCodeEditor("Transmitter.v", 370, 239); // ch (w, cr)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "Transmitter.v", 'v'); // ch (w, cr)
+selectCodeEditor("Transmitter.v", 315, 443); // ch (w, cr)
+typeControlKey((HResource) null, "Transmitter.v", 'v'); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tx_tb.v", 2); // i (h, cr)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+selectCodeEditor("Tx_tb.v", 46, 265); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+closeMainWindow("TRANSMITTER - [C:/Users/mohit/Desktop/GIT HUB FILES/Digital-system_FNN/TRANSMITTER/TRANSMITTER.xpr] - Vivado 2019.2"); // cr
+// A (cr): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+dismissDialog("Exit Vivado"); // A (cr)

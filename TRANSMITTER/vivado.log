@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri May  3 19:44:25 2024
+# Process ID: 6856
+# Current directory: C:/Users/mohit/Desktop/GIT HUB FILES/Digital-system_FNN/TRANSMITTER
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9476 C:\Users\mohit\Desktop\GIT HUB FILES\Digital-system_FNN\TRANSMITTER\TRANSMITTER.xpr
+# Log file: C:/Users/mohit/Desktop/GIT HUB FILES/Digital-system_FNN/TRANSMITTER/vivado.log
+# Journal file: C:/Users/mohit/Desktop/GIT HUB FILES/Digital-system_FNN/TRANSMITTER\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/mohit/Desktop/GIT HUB FILES/Digital-system_FNN/TRANSMITTER/TRANSMITTER.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/mohit/Desktop/DIGITAL SYSTEM/FNN/TRIALS/TRANSMITTER' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [filemgmt 56-1] Board Part Repository Path: Directory not found as 'C:/Users/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store'; using path 'C:/Users/mohit/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1161.117 ; gain = 473.609
+update_compile_order -fileset sources_1

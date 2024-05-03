@@ -1,14 +1,6 @@
 `timescale 1ns / 10ps
 
 
-//module Transmitter (
-//    input clk,             // System clock
-//    input reset,         // Reset signal (active low)
-//    input [7:0] data_in,   // Data to be transmitted
-//    input send,
-//    output reg tx_out,
-//    output reg is_complete=0   // UART transmit output
-//);
 module Tx_tb(
 );
 reg slow_clk=0;
